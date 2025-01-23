@@ -8,5 +8,4 @@ git clone https://github.com/00x0A/archlinux_dotfiles.git ~/
 6. fc-cache -f -v
 7. cd ~ && sudo rm -rf .bashrc && sudo rm -rf .bash_profile
 8. sudo cp -r ~/.mozilla/firefox/user.js ~/.mozilla/firefox/$(ls /home/v/.mozilla/firefox | grep -i .default-release)/user.js
-9. for laptop uncomment laptop-fix in hyprland.conf
-10. add this to /etc/sudoers : username ALL=(ALL) NOPASSWD: (home/[username]/laptop-fix.sh
+9. sudo cp ~/fix-lid.sh /usr/local/sbin/fix-lid.sh && sudo cp ~/fix-lid.service /etc/systemd/system/fix-lid.service
