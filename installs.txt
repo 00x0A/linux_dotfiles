@@ -132,6 +132,7 @@ reflector
 rsync
 rtkit
 s-nail
+seahorse
 sg3_utils
 smartmontools
 sof-firmware
@@ -162,6 +163,7 @@ wireplumber
 wob
 wofi
 wpa_supplicant
+xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
