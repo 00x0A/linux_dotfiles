@@ -1,5 +1,4 @@
 git clone https://github.com/00x0A/archlinux_dotfiles.git ~/
-
 1. yay -S --needed - < installs.txt
 2. systemctl --user enable --now hyprpaper.service
 3. systemctl --user enable --now hyprpolkitagent.service
@@ -9,3 +8,5 @@ git clone https://github.com/00x0A/archlinux_dotfiles.git ~/
 7. cd ~ && sudo rm -rf .bashrc && sudo rm -rf .bash_profile
 8. sudo cp -r ~/.mozilla/firefox/user.js ~/.mozilla/firefox/$(ls /home/v/.mozilla/firefox | grep -i .default-release)/user.js
 9. sudo cp ~/fix-lid.sh /usr/local/sbin/fix-lid.sh && sudo cp ~/fix-lid.service /etc/systemd/system/fix-lid.service
+10. systemctl edit getty@tty1
+11. ExecStart=-/usr/bin/agetty --autologin [username] --noclear %I $TERM
