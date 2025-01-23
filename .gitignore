@@ -10,3 +10,12 @@
 .config/user-dirs.dirs
 .config/user-dirs.locale
 /.config/github-copilot
+/.cache
+/.local/share
+/.mozilla/firefox/hutm2cna.default-release
+/.mozilla/firefox/tmilgrhh.default
+/.pki/nssdb
+.bash_history
+.gitconfig
+.mozilla/firefox/installs.ini
+.mozilla/firefox/profiles.ini
