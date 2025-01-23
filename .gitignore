@@ -29,3 +29,4 @@
 /.local/state
 /.mozilla/firefox/a96g19er.default
 /.mozilla/firefox/iolkdbma.default-release
+/.cargo
