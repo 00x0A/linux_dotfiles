@@ -1,0 +1,6 @@
+[Unit]
+Description=Fix the motherfucking lid bitch
+[Service]
+ExecStart=/usr/local/sbin/fix-lid.sh
+[Install]
+WantedBy=multi-user.target

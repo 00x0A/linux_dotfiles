@@ -1,0 +1,16 @@
+window#osd {
+    background: #282828;
+}
+
+progressbar {
+    background: #a89984;
+}
+
+progress {
+    background: #a89984;
+}
+
+image,
+label {
+    color: #a89984;
+}
