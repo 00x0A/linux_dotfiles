@@ -1,4 +1,7 @@
-git clone https://github.com/00x0A/archlinux_dotfiles.git ~/
+git clone https://github.com/00x0A/archlinux_dotfiles.git /home/[user]
+sudo pacman -S yay
+yay -S --noconfirm envycontrol && envycontrol -s integrated
+
 1. yay -S --needed - < installs.txt
 2. systemctl --user enable --now hyprpaper.service
 3. systemctl --user enable --now hyprpolkitagent.service
