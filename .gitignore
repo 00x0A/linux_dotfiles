@@ -21,3 +21,11 @@
 .mozilla/firefox/profiles.ini
 /.config/gh
 /.gnupg
+.config/dolphinrc
+.config/btop/btop.log
+/.config/htop
+/.config/kde.org
+.config/knfsshare
+/.local/state
+/.mozilla/firefox/a96g19er.default
+/.mozilla/firefox/iolkdbma.default-release

@@ -26,5 +26,5 @@ alias py="sudo pacman -Syuu --noconfirm"
 
 # custom
 alias cl="sudo pacman -Scc --noconfirm ; sudo pacman -R $(pacman -Qtdq) --noconfirm ; sudo rm -rf ~/.cache ; yay -Sc --aur --noconfirm"
-alias ps="cd ~ && pacman -Qqe > installs.txt"
-alias pl="cd ~ && yay -S --needed - < ./installs.txt --noconfirm"
+alias ps="pacman -Qqe > ~/installs.txt"
+alias pl="yay -S --needed - < ~/installs.txt --noconfirm"
